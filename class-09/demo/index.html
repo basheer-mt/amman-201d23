@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adopt a Kitten</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <h1>Adopt a Kitten</h1>
+    </header>
+    <main>
+      <fieldset>
+        <legend>Add New Cat</legend>
+        <form id="catForm">
+          <label for="catName">Name</label>
+          <input id="catName"  name="catName" type="text">
+          <label for="breed">Breed</label>
+          <input id="breed" type="text">
+          <label for="likes">Likes</label>
+          <input id="likes" type="text">
+          <label for="goodKids">Is Good With Kids</label>
+          <input id="goodKids" type="checkbox">
+          <label for="goodCat">Is Good With Cat</label>
+          <input id="goodCat" type="checkbox">
+          <label for="goodDog">Is Good With Dog</label>
+          <input id="goodDog" type="checkbox">
+  
+          <button type="submit">Save</button>
+        </form>
+      </fieldset>
+      <h2>Kittens Available for Adoption:</h2>
+      <div id="kittenProfiles">
+        <!-- generate this from js: -->
+        <!-- <article>
+          <h2></h2>
+          <p></p>
+          <ul>
+            <li></li>
+          </ul>
+          <img>
+        </article> -->
+      </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
